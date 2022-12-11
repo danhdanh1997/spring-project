@@ -16,9 +16,13 @@ public class Payment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "payment_id")
     private Long id;
 
+    @Column(name = "amount")
     private Double amount;
+
+    @Column(name = "payment_date")
     private ZonedDateTime paymentDate;
 
     @ManyToOne(fetch = FetchType.LAZY)

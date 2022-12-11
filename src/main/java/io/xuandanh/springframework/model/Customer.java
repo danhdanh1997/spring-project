@@ -35,6 +35,12 @@ public class Customer {
     @Column(name = "pass_word")
     private String passWord;
 
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "phone")
+    private String phone;
+
     @Column(name = "status")
     private Integer status;
 
