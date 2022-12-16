@@ -26,4 +26,9 @@ public class CustomerController {
         CustomerUpSertResponse response = customerConverter.asResponse(request);
         return ResponseEntity.ok(response);
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello xuan danh";
+    }
 }
