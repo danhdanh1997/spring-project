@@ -37,4 +37,10 @@ public class CustomerController {
     public String xuanthach() {
         return "xuan thach";
     }
+
+    public void print() {
+        System.out.println("commit 1");
+        System.out.println("commit 2");
+        System.out.println("commit 3");
+    }
 }
