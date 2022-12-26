@@ -46,5 +46,6 @@ public class CustomerController {
 
     public void phong10c() {
         System.out.println("xuan danh");
+        System.out.println("van dao");
     }
 }
