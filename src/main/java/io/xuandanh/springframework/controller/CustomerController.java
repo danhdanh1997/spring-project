@@ -43,4 +43,8 @@ public class CustomerController {
         System.out.println("commit 2");
         System.out.println("commit 3");
     }
+
+    public void phong10c() {
+        System.out.println("xuan danh");
+    }
 }
