@@ -32,4 +32,9 @@ public class CustomerController {
     public String xuandanh() {
         return "xuan danh";
     }
+
+    @GetMapping("/xuanthach")
+    public String xuanthach() {
+        return "xuan thach";
+    }
 }
