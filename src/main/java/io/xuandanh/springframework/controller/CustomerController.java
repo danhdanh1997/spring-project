@@ -37,4 +37,8 @@ public class CustomerController {
     public String xuanthach() {
         return "xuan thach";
     }
+
+    public void testGitStash() {
+        System.out.println("test git stash");
+    }
 }
