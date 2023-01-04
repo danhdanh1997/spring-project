@@ -56,4 +56,8 @@ public class CustomerController {
     public void day512023() {
         System.out.println(System.currentTimeMillis());
     }
+
+    public void testGitFetch() {
+        System.out.println("git fetch");
+    }
 }
