@@ -41,4 +41,8 @@ public class CustomerController {
     public void testGitStash() {
         System.out.println("test git stash");
     }
+
+    public void testFetchGit() {
+        System.out.println("test fetch git on xuan thach branch");
+    }
 }
