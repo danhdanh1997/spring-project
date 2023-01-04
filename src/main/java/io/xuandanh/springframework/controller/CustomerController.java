@@ -52,4 +52,8 @@ public class CustomerController {
         System.out.println("xuan danh");
         System.out.println("van dao");
     }
+
+    public void day512023() {
+        System.out.println(System.currentTimeMillis());
+    }
 }
