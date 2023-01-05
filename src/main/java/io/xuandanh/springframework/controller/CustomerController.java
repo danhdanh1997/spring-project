@@ -42,6 +42,7 @@ public class CustomerController {
         System.out.println("test git stash");
     }
 
+<<<<<<< HEAD
     public void print() {
         System.out.println("commit 1");
         System.out.println("commit 2");
@@ -59,5 +60,9 @@ public class CustomerController {
 
     public void testGitFetch() {
         System.out.println("git fetch");
+=======
+    public void testFetchGit() {
+        System.out.println("test fetch git on xuan thach branch");
+>>>>>>> 19ab0585fe7725ca651e132a2e4643f6f46b8349
     }
 }
