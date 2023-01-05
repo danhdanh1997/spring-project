@@ -38,6 +38,14 @@ public class CustomerController {
         return "xuan thach";
     }
 
+    public void testGitStash() {
+        System.out.println("test git stash");
+    }
+
+    public void testFetchGit() {
+        System.out.println("test fetch git on xuan thach branch");
+    }
+
     public void print() {
         System.out.println("commit 1");
         System.out.println("commit 2");
