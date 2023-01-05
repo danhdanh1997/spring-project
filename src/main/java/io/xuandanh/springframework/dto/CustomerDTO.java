@@ -15,4 +15,5 @@ public class CustomerDTO {
     private String email;
     private Integer age;
     private String cmnd;
+    private Double salary;
 }
