@@ -42,10 +42,7 @@ public class CustomerController {
         System.out.println("test git stash");
     }
 
-    public void testFetchGit() {
-        System.out.println("test fetch git on xuan thach branch");
-    }
-
+<<<<<<< HEAD
     public void print() {
         System.out.println("commit 1");
         System.out.println("commit 2");
@@ -55,5 +52,17 @@ public class CustomerController {
     public void phong10c() {
         System.out.println("xuan danh");
         System.out.println("van dao");
+    }
+
+    public void day512023() {
+        System.out.println(System.currentTimeMillis());
+    }
+
+    public void testGitFetch() {
+        System.out.println("git fetch");
+=======
+    public void testFetchGit() {
+        System.out.println("test fetch git on xuan thach branch");
+>>>>>>> 19ab0585fe7725ca651e132a2e4643f6f46b8349
     }
 }
